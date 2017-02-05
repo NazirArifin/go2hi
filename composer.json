@@ -1,0 +1,22 @@
+{
+    "name": "nazir/go2hi",
+    "description": "GO2HI - Gregorian To Hijri Converter",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["go2hi", "hijri calendar"],
+    "authors": [
+        {
+            "name": "Nazir Arifin",
+            "email": "ceylon.rizan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "go2hi": "src/"
+        }
+    }
+}
