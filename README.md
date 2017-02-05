@@ -19,7 +19,7 @@ go2hi::date($dateFormat, [[[$calendarType], [$timestamp]], [$language]]);
 * ```$language``` (opsional) = jenis bahasa (sementara hanya inggris dan bahasa INDONESIA) lihat bagian Constants
 
 ## Constants / Variabel
-* ```go2hi::GO2HI_GREG``` : mengeset kalender ke kalender masehi
+* ```go2hi::GO2HI_GREG``` : (default) mengeset kalender ke kalender masehi
 * ```go2hi::GO2HI_HIJRI``` : mengeset kalender ke kalender hijriah
 * ```go2hi::ENGLISH```: (default) set bahasa ke bahasa inggris
 * ```go2hi::INDONESIAN```: set bahasa ke bahasa INDONESIA
