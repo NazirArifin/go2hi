@@ -217,7 +217,11 @@ class go2hi {
                 }
             case 'F': // (Nama bulan lengkap)
                 if(self::isHijri()) {
-                    $tda = self::$monthA[self::$monthH-1];
+                    if(self::$monthH == 11){
+                        $tda = self::$monthA[self::$monthH];
+                    }else{
+                        $tda = self::$monthA[self::$monthH-1];
+                    }
                 } else {
                     if(self::isEnglish()) {
                         $tda = self::$monthE[self::$monthM-1];
